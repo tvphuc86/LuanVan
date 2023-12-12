@@ -5,7 +5,7 @@ class AccountService {
         return axios.post(`https://localhost:7088/api/tai-khoan/dang-nhap`,values)
     }
     dangKy(values){
-        return axios.post(`https://localhost:7088/api/tai-khoan/dang-ky`,values)
+        return axios.post(`https://localhost/api/tai-khoan/dang-ky`,values)
     }
     xacMinhOtp(otp,email){
         return axios.post(`https://localhost:7088/api/tai-khoan/xacminhotp?otp=${otp}&email=${email}`)
