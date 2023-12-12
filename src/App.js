@@ -42,12 +42,14 @@ import LoaiMatHang from './routes/quanLy/LoaiMatHang';
 import BaoHiemDonVanChuyen from './routes/quanLy/BaoHiemDonVanChuyen';
 import ThongTinCaNhanNV from './routes/NhanVienGiaoHang/ThongTinCaNhan';
 import DuyetMatHangCaNhan from './routes/quanLy/DuyetMatHangCaNhan';
+import { BrowserRouter } from 'react-router-dom';
 function App() {
 
   return (
     
     <div className="App">
-     
+       <BrowserRouter basename="/LuanVan">
+
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path="/*" element={<Home />}> </Route>
@@ -101,6 +103,8 @@ function App() {
         <Route path='/dang-ky' element={<Register />} />
         <Route path='/tra-cuu-van-don' element={<Info />} />
       </Routes>
+      </BrowserRouter >
+
     </div>
   );
 }
