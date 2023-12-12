@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/LuanVan/static/css/main.27b7aa6d.css",
-    "main.js": "/LuanVan/static/js/main.ef75e2fb.js",
+    "main.js": "/LuanVan/static/js/main.15e355db.js",
     "static/js/787.1e83dcc9.chunk.js": "/LuanVan/static/js/787.1e83dcc9.chunk.js",
     "static/media/background1.jpg": "/LuanVan/static/media/background1.644cdf22377798221497.jpg",
     "static/media/user.jpg": "/LuanVan/static/media/user.d17c56de4c83e9decc0e.jpg",
     "static/media/logo.png": "/LuanVan/static/media/logo.f0ef06afb75abc117d4b.png",
     "index.html": "/LuanVan/index.html",
     "main.27b7aa6d.css.map": "/LuanVan/static/css/main.27b7aa6d.css.map",
-    "main.ef75e2fb.js.map": "/LuanVan/static/js/main.ef75e2fb.js.map",
+    "main.15e355db.js.map": "/LuanVan/static/js/main.15e355db.js.map",
     "787.1e83dcc9.chunk.js.map": "/LuanVan/static/js/787.1e83dcc9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27b7aa6d.css",
-    "static/js/main.ef75e2fb.js"
+    "static/js/main.15e355db.js"
   ]
 }
