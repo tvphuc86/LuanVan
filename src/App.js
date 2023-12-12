@@ -99,9 +99,9 @@ function App() {
         <Route path='/nhan-vien-giao-hang/thong-ke-luong' element={<NVGH > <ThongKeLuong /> </NVGH>}></Route>
         <Route path='/nhan-vien-giao-hang/thong-tin-ca-nhan' element={<NVGH ><ThongTinCaNhanNV /></NVGH>}></Route>
 
-        <Route path='/dang-nhap'  element={<Login  />}  />
-        <Route path='/dang-ky' element={<Register />} />
-        <Route path='/tra-cuu-van-don' element={<Info />} />
+        <Route path='/LuanVan/dang-nhap'  element={<Login  />}  />
+        <Route path='/LuanVan/dang-ky' element={<Register />} />
+        <Route path='/LuanVan/tra-cuu-van-don' element={<Info />} />
       </Routes>
       </BrowserRouter >
 
