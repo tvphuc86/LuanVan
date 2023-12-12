@@ -1,0 +1,48 @@
+.title-kh,.khachHang{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
+.khachHang {
+    font-weight: normal;
+}
+.title-kh span, .khachHang span{
+    display: inline-block;
+    width: 15%;
+    padding: 1rem;
+    text-align: center;
+}
+.list-khachHang div:nth-child(even){
+    background: linear-gradient(to right, rgb(215, 226, 243), rgb(194, 230, 250) 50%, rgb(142, 200, 248) 75%, rgb(108, 177, 234) );
+}
+.filter1 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.filter1 div input{
+    outline: solid;
+    width: 20%;
+    font-size: 16px;
+}
+.filter1 div label{
+display: inline-block;
+    width: 50%;
+}
+.filter1 input, .filter1 button{
+    width: 50%;
+    height: 45px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+.filter1 button{
+    padding: 0;
+    width: 20%;
+    font-size: 16px;
+}

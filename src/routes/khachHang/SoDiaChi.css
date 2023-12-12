@@ -1,0 +1,43 @@
+.form-diachi{
+    height: max-content;
+}
+.form-diachi fieldset {
+    width: 100%;
+}
+.form-diachi fieldset select {
+    width: 30%;
+    height: 45px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px;
+}
+.form-diachi fieldset label{
+    display: inline-block;
+    width: 10%;
+    padding: 5px;
+    font-size: 16px;
+}
+.form-diachi fieldset input{
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 45px;
+    border: solid 1px;
+}
+.form-diachi fieldset button{
+    height: 45px;
+    font-size: 16px;
+    background-color: rgb(127, 197, 255);
+    padding: 5px;
+    width: 20%;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: 800;
+    transform: scale(0.9);
+}
+.form-diachi fieldset button:hover{
+    transform: scale(1);
+    transition: all 0.3s ease;
+}

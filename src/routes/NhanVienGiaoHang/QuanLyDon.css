@@ -1,0 +1,60 @@
+div.hoa-don{
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    padding: 1rem;
+    height: 100%;
+    margin-top: 20%;
+    
+
+}
+.hoa-don div{
+    width: 100%;
+    text-align: center;
+}
+.hoa-don span{
+    display: inline-block;
+    padding: 10px;
+}
+.hoa-don div.title-1 span:first-child, .hoa-don div.hanghoa span:first-child {
+    
+    width: 70%;
+}
+.hoa-don div.title-1 span:last-child, .hoa-don div.hanghoa span:last-child {
+    
+    width: 30%;
+}
+.hoa-don p{
+    text-align: center;
+  font-weight: bold;
+
+}
+.hoa-don div span:first-child{
+    width: 40%;
+    text-align: start;
+}
+.hoa-don div span:last-child{
+    width: 60%;
+    text-align: start;
+}
+
+.hoa-don div.hanghoa span p{
+    text-align: initial;
+    font-weight: normal;
+}
+.Logo-indon{
+    position:absolute;
+    right: 100px;
+    height: 200px;
+    width: 200px;
+    top: 23%;
+}
+.hoa-don  sub{
+    display: block;
+    text-align: end;
+}
+.hoa-don div.thongtinct{
+    padding: 5px;
+    font-style: italic;
+}
+

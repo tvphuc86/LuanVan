@@ -1,0 +1,129 @@
+.uoctinh{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 18px;
+    min-height: 100vh;
+    max-height: max-content;
+}
+.formuoctinh{
+    margin-right: 1%;
+    padding: 2rem;
+    width: 40%;
+    background-color: rgb(212, 248, 248);
+    border-radius: 10px;
+}
+.listuoctinh{
+    width: 60%;
+    padding: 2rem;
+    background-color: rgb(156, 247, 247);
+    border-radius: 10px;
+}
+.formuoctinh form{
+    width: 100%;
+}
+.formuoctinh form fieldset{
+    width: 100%;
+}
+.formuoctinh form input{
+    width: 100%;
+    height: 50px;
+}
+.formuoctinh form fieldset fieldset label{
+    display: inline-block;
+    width: 14%;
+}
+.formuoctinh form fieldset fieldset.select label{
+    display: inline-block;
+    width: 5%;
+}
+.formuoctinh form fieldset fieldset input {
+    width: 80%;
+    height: 50px;
+    margin: 0.5rem 1rem;
+    font-size: 18px;
+    padding: 0.5rem;
+}
+.formuoctinh form fieldset fieldset select{
+    width: 40%;
+    height: 50px;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+    font-size: 18px;
+}
+.formuoctinh form fieldset{
+    text-align: end;
+}
+.formuoctinh form fieldset select{
+    width: 90%;
+    height: 50px;
+    margin: 0.5rem 1rem;
+    font-size: 18px;
+}
+.formuoctinh form{
+    padding: 1rem;
+}
+.uoctinh.tracuuvandon h1{
+    border: solid;
+}
+.formuoctinh fieldset legend{
+    font-weight: 800;
+}
+.formuoctinh form > fieldset:nth-child(3){
+    border:  2px lightblue solid;
+    margin: 1rem 0 1rem 0;
+}
+.formuoctinh h1{
+    text-align: center;
+}
+
+
+/*lisst */
+.listuoctinh h1{
+    text-align: center;
+}
+.listuoctinh h4{
+    margin: 1rem;
+}
+.listuoctinh table{
+    margin: 1rem;
+}
+.listuoctinh button a{
+    text-decoration: none;
+}
+.listuoctinh button{
+    font-weight: 800;
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    letter-spacing: 0.2rem;
+    background-color: rgb(14, 185, 242);
+    border-radius: 5px;
+    color: rgb(8, 182, 182);
+    border: rgb(14, 185, 242);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+.listuoctinh button:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+
+}
+.listuoctinh .ketQuaTraCuu span{
+    display: inline-block;
+    width: 50%;
+    padding: 0.5rem;
+}
+.listuoctinh .ketQuaTraCuu p{
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+.listuoctinh .ketQuaTraCuu div span:nth-child(even){
+    text-align: end;
+}
+.listuoctinh .ketQuaTraCuu div span :nth-child(odd){
+    text-align: start;
+}

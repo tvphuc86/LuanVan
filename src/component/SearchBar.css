@@ -1,0 +1,156 @@
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 15px;
+    left: -50%;
+    width:98%;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    height: 80px;
+    background-color: #fff;
+    transform:translate(52%);
+    transition: all 0.2s ease-in-out;
+    z-index: 99;
+}
+.logo-searchbar{
+    display: flex;
+    align-items: center;
+}
+.logo-searchbar h1{
+    display: inline-block;
+    justify-self: center;
+    text-transform: uppercase;
+    color: rgb(78, 195, 234);
+}
+.logo-searchbar img{
+    width: 80px;
+    height: 80px;
+}
+.search{
+    padding: 1rem 2rem;
+    width: 40%;
+}
+.search input{
+    width: 80%;
+    height: 40px;
+    border-radius: 6px 0 0 6px;
+    padding: 2px;
+}
+.search button{
+    width: 20%;
+    height: 40px;
+    border-radius: 0 6px 6px 0;
+    border-left: none;
+    background-color: #fff;
+    color: rgb(78, 195, 234);
+}
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    padding: 1rem 2rem;
+}
+.profile .avatar img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.btn-login{
+    width: 100%;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 1rem;
+    border-color:  var(--color-primary);
+    color: var(--color-primary);
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    text-align: center;
+}
+.listThongBao {
+    position: absolute;
+    top: 60px;
+    right: 3%;
+    border-radius: 6px;
+    padding: 1rem;
+    width: 400px;
+    background-color: rgb(172, 208, 249);
+}
+.listThongBao.non {
+   right: -100%;
+   transition: all 0.3s;
+}
+.listThongBao .thongBao div{
+    width: 100%;
+    border: thin solid;
+    margin-bottom: 2px;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+.listThongBao .thongBao div:hover{
+    border: thin solid rgb(82, 162, 189);
+}
+.listThongBao sub{
+    display: inline-block;
+    width: 100%;
+    text-align: end;
+}
+.closehd {
+    position: relative;
+    width: 100%;
+    left: 45%;
+    bottom: 10px;
+    font-size: 30px;
+}
+
+.btn-login:hover{
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    border-radius: 3rem;
+    transition: all 0.2s ease-in-out;
+}
+@media screen and (max-width: 820px){
+.searchbar{
+    height: 60px;
+    justify-content: space-evenly;
+}
+.logo-searchbar h1{
+    display: none;
+}
+.logo-searchbar img{
+    width: 50px;
+    height: 50px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    width: 50%;
+}
+.search input{
+    width: 80%;
+    height: 25px;
+    border-radius: 6px 0 0 6px;
+    padding: 2px;
+}
+.search button{
+    font-size: 9px;
+    width: 20%;
+    height: 25px;
+    background-color: #fff;
+    color: rgb(78, 195, 234);
+}
+.profile {
+    width: 40%;
+    padding: 0.5rem 1rem;
+}
+.profile .avatar img{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+}

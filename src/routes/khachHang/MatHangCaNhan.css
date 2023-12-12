@@ -1,0 +1,17 @@
+.form-diachi fieldset input[type='checkbox']{
+    padding: 5px;
+    width: 2%;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 45px;
+    border: solid 1px;
+    text-align: center;
+}
+.form-diachi fieldset fieldset.trongLuong {
+    display: inline-block;
+    width: 78%;
+    text-align: center;
+}
+.form-diachi fieldset.trongLuong input[type='number']{
+    width: 23%;
+}

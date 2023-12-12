@@ -1,0 +1,126 @@
+form.formdonvanchuyen fieldset{
+    background: linear-gradient(to right,rgb(155, 219, 237),rgb(26, 131, 160));
+    padding: 1rem;
+    width: 80%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    border-radius: 8px;
+    margin: 1%;
+    display: inline-block;
+    text-align:start;
+    }
+form.formdonvanchuyen fieldset:last-child{
+    width: 80%;
+}
+form.formdonvanchuyen fieldset:nth-child(5) label{
+    width: 14%;
+}
+form.formdonvanchuyen fieldset:nth-child(5) input{
+    width: 11%;
+}
+form.formdonvanchuyen{
+    width: 95%;
+    text-align: center;
+}
+form.formdonvanchuyen button{
+    width: 80%;
+    height: 46px;
+    border-radius: 6px;
+    text-align: center;
+    background: linear-gradient(to left,rgb(155, 219, 237),rgb(3, 124, 158));
+}
+form.formdonvanchuyen button:hover{
+    background: linear-gradient(to right,rgb(61, 200, 239),rgb(30, 141, 172));
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+}
+form.formdonvanchuyen fieldset legend{
+    color: rgb(12, 65, 126);
+    font-weight: 800;
+}
+form.formdonvanchuyen fieldset label{
+    display: inline-block;
+    width: 20%;
+}
+form.formdonvanchuyen fieldset textarea{
+    padding: 1rem;
+    width: 100%;
+    height: 100px;
+    border-radius: 6px;
+}
+form.formdonvanchuyen fieldset input[type='checkbox']{
+    display: inline-block;
+    width: 10%;
+    height: 20px;
+}
+form.formdonvanchuyen fieldset input,form.formdonvanchuyen fieldset select,form.formdonvanchuyen fieldset div.abc select{
+    display: inline-block;
+    width: 78%;
+    border: 1px solid;
+    height: 45px;
+    margin: 5px 0 5px 0;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 10px;
+
+}
+form.formdonvanchuyen fieldset div label:first{
+    width:25%;
+
+}
+
+form.formdonvanchuyen fieldset label.tuychon{
+    width: 20%;
+    text-align: center;
+}
+
+form.formdonvanchuyen fieldset div input{
+    width: 30%;
+}
+
+div.icon{
+   font-size: 40px;
+    text-align: center;
+    
+}
+form.formdonvanchuyen fieldset div{
+    display: inline-block;
+    width: 70%;
+}
+form.formdonvanchuyen fieldset div.abc{
+    width: 100%;
+}
+form.formdonvanchuyen fieldset div.vatpham, form.formdonvanchuyen fieldset div.icon,form.formdonvanchuyen fieldset div div.vatpham{
+
+    width: 100%;
+}
+form.formdonvanchuyen fieldset div select{
+    width: 31%;
+    margin: 0 9.5px 0 7px;
+}
+form.formdonvanchuyen fieldset div input[type='text']{
+    width: 100%;
+}
+form.formdonvanchuyen fieldset div select:first-child{
+    margin-left: 0;
+}
+div.title1 span{
+    display: inline-block;
+    padding: 1rem;
+    font-size: 16px;
+}
+div.don1 {
+    display: flex;
+    justify-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+div.title2 span{
+    display: inline-block;
+    width: 16%;
+    font-size: 18px;
+    padding: 5px;
+}
+.paypal-button-label-container{
+    width: 50% !important;
+}
+

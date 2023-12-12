@@ -1,0 +1,174 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(196, 230, 241);
+    border-radius: 2px;
+    width: 100%;
+    bottom: 0;
+    flex-wrap: wrap;
+    position: relative;
+    color:var(--color-primary);
+}
+.footer .social{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.title-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.title-icon .title-footer{
+    padding: 1em 0 0 1em;
+    align-self: start;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    text-shadow: 3px -1px 1px #12244C;
+}
+.icon-social{
+    display: inline-block;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    height: 100%;
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+.address{
+    text-align: center;
+    align-self: flex-start;
+    padding: 1rem;
+}
+h1.title-footer{
+    padding-block-end: 0.6rem;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+.address ul{
+    list-style: none;
+    text-align: start;
+    margin: 0.2rem;
+}
+.address ul li{
+    padding: 0.2rem;
+    font-weight: 400;
+}
+.recieve-new{
+    align-self: flex-start;
+    padding: 1rem;
+}
+.recieve-new input{
+    border: lightblue;
+    border-radius: 4px 0 0 4px;
+    height: 40px;
+    width: 75%;
+}
+.recieve-new button{
+    background: lightblue;
+    border:lightblue;
+    border-radius: 0 4px 4px 0;
+    height: 40px;
+    width: 20%;
+    font-size: 13px;
+    font-weight: 600;
+}
+.recieve-new input:is(:hover,:focus){
+    width: 80%;
+    transition: all 0.3s ease-in-out;
+    border: solid rgb(8, 108, 141);
+}
+.recieve-new button:is(:hover,:focus){
+    width: 25%;
+    transition: all 0.3s ease-in-out;
+    background: rgb(8, 108, 141);
+    color: #fff;
+}
+@media  screen and (max-width: 1085px){
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .social{
+        display: flex;
+        justify-content: space-around;
+    }
+    .social img{
+        align-self: center;
+        height: 80px;
+        width: 80px;
+    }
+    .title-icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .title-icon .title-footer{
+        padding: 0.5em 0 0 0.5em;
+        align-self: start;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: var(--color-primary);
+        text-shadow: 3px -1px 1px #12244C;
+    }
+    .icon-social{
+        display: inline-block;
+        padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+        height: 100%;
+        font-size: 1.5rem;
+        color: var(--color-primary);
+    }
+    .address{
+        align-self: center;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    h1.title-footer{
+        padding-block-end: 0.3rem;
+        text-transform: uppercase;
+        font-size: large;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+    }
+    .address ul{
+        list-style: none;
+        margin: 0.1rem;
+    }
+    .address ul li{
+        padding: 0.2rem;
+        font-weight: 400;
+    }
+    .recieve-new{
+        padding: 0.5rem;
+        align-self: center;
+    }
+    .recieve-new input{
+        border: lightblue;
+        border-radius: 4px 0 0 4px;
+        height: 40px;
+        width: 75%;
+    }
+    .recieve-new button{
+        background: lightblue;
+        border:lightblue;
+        border-radius: 0 4px 4px 0;
+        height: 40px;
+        width: 20%;
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .recieve-new input:is(:hover,:focus){
+        width: 80%;
+        transition: all 0.3s ease-in-out;
+        border: solid rgb(8, 108, 141);
+    }
+    .recieve-new button:is(:hover,:focus){
+        width: 25%;
+        transition: all 0.3s ease-in-out;
+        background: rgb(8, 108, 141);
+        color: #fff;
+    }
+}

@@ -1,0 +1,24 @@
+.doanhthu span{
+    display: inline-block;
+    width: 45%;
+    margin: 1%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    background: rgb(197, 222, 246);
+border-radius: 6px;
+    padding: 1rem 2rem;
+}
+.doanhthu strong {
+    margin: 1rem;
+    font-size: 20px;
+}
+.doanhthu span h2{
+    display: inline-block;
+}
+.doanhthu span i {
+    text-align: end;
+    width: 20%;
+    display: inline-block;
+}
+.doanhthu span i:hover{
+    color: blueviolet;
+}

@@ -1,0 +1,53 @@
+.dang-ky{
+    position: relative;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 1rem;
+    font-size: 18px;
+    width: 50%;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, .25),5px 0 15px rgba(0, 0, 0, .25);
+    background-color: rgb(172, 215, 253);
+}
+.dang-ky h1{
+    text-align: center;
+    color: rgb(80, 94, 241);
+}
+.form-dangky form{
+    width: 100%;
+    padding: 5px;
+}
+.form-dangky form fieldset div{
+    width: 80%;
+}
+.form-dangky form fieldset div button{
+    width: 20%;
+    height: 50px;
+    background-color: rgb(192, 241, 241);
+}
+.form-dangky form fieldset{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+.form-dangky form input{
+    font-size: 18px;
+    height: 50px;
+    width: 80%;
+    padding: 1rem;
+}
+.form-dangky  sub{
+    display: block;
+    margin-left: 20%;
+    
+    color: rgb(195, 30, 30);
+}
+.form-dangky form > button{
+    margin: 10px 0 5px 0;
+}
+button a {
+    font-size: 16px;
+    text-decoration: none;
+}

@@ -1,0 +1,54 @@
+.header-list input{
+    height: 40px;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem;
+    font-size: 16px;
+}
+.header-table{
+    height: 50px;
+}
+.header-table button{
+    padding: 0.5rem;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: rgb(120, 183, 234);
+    color: rgb(4, 50, 53);
+}
+.header-table button:hover{
+    transform: scale(1.02);
+    color: rgb(1, 21, 21);
+    transition: all 0.3s ;
+}
+.modal-trongluong form{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.modal-trongluong form fieldset{
+    width: 40%;
+    font-size: 16px;
+}
+.modal-trongluong form button{
+    width: 20%;
+    border: solid;
+    font-size: 16px;
+    border-radius: 1rem;
+    align-self: flex-end;
+}
+.modal-trongluong form fieldset input{
+    width: 80%;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 1rem;
+}
+.content h1{
+    text-align: center;
+    color: rgb(5, 52, 74);
+}

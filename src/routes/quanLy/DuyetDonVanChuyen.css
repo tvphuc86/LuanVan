@@ -1,0 +1,122 @@
+.title,.don {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+.don:nth-child(even) {
+
+    background: lightblue;
+}
+.title span, .don span{
+    font-weight: bold;
+    width: 14%;
+    text-align: start;
+    padding: 0.5rem;
+}
+.title span:first-child, .don span:first-child{
+
+    width: 4%;
+
+}
+.don:hover{
+    background: linear-gradient(to left ,lightblue, rgb(28, 176, 225));
+    transition: all 0.5s ease-in-out;
+}
+.title span:last-child, .don span:last-child{
+
+    width: 10%;
+
+}
+.don span{
+    font-weight: normal;
+   
+}
+.modal-duyetdon{
+    position: absolute;
+    background: linear-gradient(to left ,rgb(240, 244, 245), rgb(169, 223, 241));
+    width: 65%;
+    z-index: 1000;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%);
+    border-radius: 10px;
+    height: max-content;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+}
+.modal-duyetdon.nonactive{
+    left: -100%;
+    transition: all 0.3s ease-in-out;
+}
+.modal-tt{
+    position: absolute;
+    background: linear-gradient(to left ,rgb(240, 244, 245), rgb(169, 223, 241));
+    width: 40%;
+    z-index: 1000;
+    left: 50%;
+    top: 45%;
+    transform: translate(-10%);
+    border-radius: 10px;
+    height: max-content;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+}
+
+.modal-tt.nonactive{
+    left: -100%;
+    transition: all 0.3s ease-in-out;
+}
+.modal-tt select,.modal-tt button,.modal-tt input{
+    height: 45px;
+    width: 60%;
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.modal-tt button{
+    width: 30%;
+}
+.modal-tt .close{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    color: red;
+}
+.modal-duyetdon span{
+    display: inline-block;
+    padding: 1rem;
+}
+.modal-duyetdon span:nth-child(even){
+    width: 20%;
+    font-weight: bold;
+}
+.modal-duyetdon span:nth-child(odd){
+    width: 80%;
+}
+.modal-duyetdon div span{
+    font-weight: bold;
+    
+}
+.modal-duyetdon div.hanghoa span{
+    font-weight: normal;
+    
+}
+
+.modal-duyetdon p{
+    font-weight: bold;
+    text-align: center;
+}
+.modal-duyetdon p div{
+    font-weight: bold;
+    text-align: center;
+}
+.modal-duyetdon div.hanghoa span p   {
+    font-weight: normal;
+    text-align: start;
+}

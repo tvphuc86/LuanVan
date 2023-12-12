@@ -1,0 +1,176 @@
+.content{
+    position: relative;
+    left: 20%;
+    top: 100px;
+    height: 100vh;
+    width: 79%;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    padding: 1rem 2rem;
+    z-index: 1;
+}
+.search-and-form{
+    display: flex;
+    justify-content: space-around
+}
+.list .search{
+    width: 100%;
+}
+.list .search input{
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+    padding: 1rem;
+    border: 1px lightblue solid; 
+    border-radius: 5px;
+}
+
+.title-page{
+    text-align: center;
+    padding: 0.5rem;
+    color: rgba(45, 163, 203, 0.9);
+    font-weight: 800;
+}
+.form{
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+    padding: 1rem;
+}
+.list{
+    display: inline-block;
+    width: 59%;
+    height: fit-content;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+    padding: 1rem;
+}
+
+.form-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+.form-group label{
+    width: 20%;
+}
+legend{
+    color: rgb(71, 180, 216);
+}
+fieldset{
+    border: none;
+}
+.form-group input,.form-group textarea{
+    font-size: 16px;
+    width: 80%;
+    height: max-content;
+    padding: 1rem;
+    border: 1px lightblue solid; 
+    border-radius: 5px;
+}
+.form-group input:focus,.form-group textarea:focus,.list .search input:focus{
+   
+    outline: 2px rgb(26, 153, 195) solid; 
+}
+input[type='file']{
+    border: none;
+}
+button[type="submit"]{
+    color: #fff;
+    background: rgba(45, 163, 203, 0.9);
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    border: rgba(103, 182, 209, 0.9) solid;
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+button[type="submit"]:hover{
+    transform: scale(1.02);
+    transition: all 0.3s;
+}
+
+table {
+    border: 2px rgb(55, 170, 209) solid ;
+    border-collapse: collapse;
+    width: 99%;
+    margin-left: 1rem;
+  }
+tr:nth-child(even) td {
+    background: rgb(183, 228, 243);
+  }
+th {
+    text-align: center;
+    border-bottom: 2px rgb(55, 170, 209) solid;
+}
+th, td {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  td + td,
+  th + th {
+    border-left: 2px rgb(55, 170, 209) solid;
+    text-align: center;
+  }
+  td.action-row{
+    border-left: 2px rgb(55, 170, 209) solid;
+    text-align: center;
+  }
+  td.action-row:nth-child(1){
+   background: green;
+  }
+  .img-htvc{
+    object-fit:contain;
+    display: block;
+    height: 200px;
+    width: 100%;
+    margin: 1rem;
+  }
+  .invalid-field{
+    outline: #dc3545 1px solid;
+    color: #dc3545;
+    background-color: #fff;
+  }
+  .list-page{
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+  }
+
+  sub.errors-input{
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    color: #dc3545;
+    padding-left: 20%;
+  }
+  p.total-table{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 800;
+
+  }
+@media screen and (max-width: 820px) {
+    .content{
+        width: 100%;
+        left: 1%;
+    }
+    .search-and-form{
+        flex-direction: column;
+    }
+    .list{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        padding: 1em;
+    }
+    
+}

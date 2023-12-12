@@ -1,0 +1,147 @@
+.content{
+    position: relative;
+    left: 20%;
+    top: 100px;
+    height: max-content;
+    width: 79%;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    padding: 1rem 2rem;
+    z-index: 1;
+    
+}
+.list{
+    width: 98%;
+}
+.header-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button.button-add{
+    font-size: 16px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    background-color: rgba(48, 161, 236, 0.6);
+    border-radius: 4px;
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+    border: 1px solid lightblue;
+    color: rgb(74, 74, 217);
+    font-weight: 800;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .25);
+}
+button.button-add:hover{
+    transform: scale(1);
+    color: rgb(8, 8, 142);
+    transition: all 0.3s ease-in-out;
+}
+.model-formCP{
+    position: fixed;
+    background-color: rgb(157, 240, 240);
+    width: 70%;
+    height: max-content;
+    padding: 1rem;
+    z-index: 999;
+    left: 50%;
+    top: 21%;
+    transform: translate(-50%,-10%);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25), 0 -5px 15px rgba(0, 0, 0, .25)  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.model-formCP.nonactive{
+    left: -100%;
+}
+.model-formCP h1{
+    text-align: center;
+    color: rgb(27, 187, 236);
+    font-weight: 800;
+}
+
+.model-formCP input{
+    margin: 2px ;
+}
+.model-formCP p {
+    margin: 2px ;
+}
+.trong-luong{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+}
+
+.form-group label{
+    color: rgb(15, 122, 122);
+    font-weight: 800;
+}
+.form-check div input[type=checkbox]{
+    height: 16px;
+    display: inline-block;
+    width: 16px;
+    padding: 0;
+    margin: 5px;
+}
+.form-check div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:auto;
+}
+.form-check  label{
+    display: inline-block;
+    width: 80%;
+    align-self: center;
+    padding: 0;
+}
+.form-check{
+    display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   
+    
+}
+form{
+    width: 95%;
+}
+.search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search input[type='search'], .search select{
+    width: 80%;
+    margin: 1rem;
+    height: 50px;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 16px;
+}
+.close{
+    font-size: 40px;
+    color: rgb(9, 103, 103);
+    box-shadow: 0 5px 15px rgb(77, 198, 198);
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
+.group-select .select-group {
+    width: 100%;
+}
+.group-select .select-group select{
+    width: 95%;
+}
+form > .error{
+    position: relative;
+    left: 20%;
+    text-align: start;
+}
+select.invalid-field{
+    outline: 1px solid red;
+    color: red;
+}

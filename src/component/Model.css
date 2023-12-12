@@ -1,0 +1,54 @@
+.Model-popup.active{
+    text-align: center;
+    position: fixed;
+    width: 50%;
+    background: lightblue;
+    height: 300px;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 0.5s ease-in-out;
+    z-index: 1000;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .26);
+    opacity: 1;
+}
+.Model-popup{
+    text-align: center;
+    position: fixed;
+    width: 50%;
+    background: lightblue;
+    height: 300px;
+    top: 15px;
+    left: 50%;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .26);
+    z-index: -1;
+    opacity: 0;
+    transform: translate(-150%);
+    transition: all 0.5s ease-in-out;
+}
+.Model-popup h1{
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+    width: 80%;
+}
+.Model-popup .icon-cancel{
+    display: inline-block;
+    text-align: end;
+    font-size: 30px;
+    width: 10%;
+}
+.form-group-model{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.form-group-model input{
+    width: 80%;
+    padding: 5px;
+    height: 30px;
+    
+}
