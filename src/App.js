@@ -48,12 +48,12 @@ function App() {
   return (
     
     <div className="App">
-       <BrowserRouter basename="/LuanVan">
+       <BrowserRouter >
 
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path="/*" element={<Home />}> </Route>
-        <Route path="/trang-chu" element={<Home />}> </Route>
+        <Route path= {"/trang-chu"} element={<Home />}> </Route>
         <Route path="/uoc-tinh" element={<UocTinh />}> </Route>
         <Route path="/lien-lac" element={<Contact />}> </Route>
         <Route path="/quan-ly" element={<QuanLy><DashboardQuanLy /></QuanLy>}></Route>
