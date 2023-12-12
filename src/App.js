@@ -49,8 +49,8 @@ function App() {
     <div className="App">
      
       <Routes>
-        <Route path='/LuanVan/' element={<Home />}></Route>
-        <Route path="/LuanVan/*" element={<Home />}> </Route>
+        <Route path='/' element={<Home />}></Route>
+        <Route path="/*" element={<Home />}> </Route>
         <Route path="/trang-chu" element={<Home />}> </Route>
         <Route path="/uoc-tinh" element={<UocTinh />}> </Route>
         <Route path="/lien-lac" element={<Contact />}> </Route>
