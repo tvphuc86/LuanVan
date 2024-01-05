@@ -53,51 +53,51 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path="/*" element={<Home />}> </Route>
-        <Route path= {"/trang-chu"} element={<Home />}> </Route>
-        <Route path="/uoc-tinh" element={<UocTinh />}> </Route>
-        <Route path="/lien-lac" element={<Contact />}> </Route>
-        <Route path="/quan-ly" element={<QuanLy><DashboardQuanLy /></QuanLy>}></Route>
-        <Route path="/quan-ly/cuoc-phi" element={<QuanLy ><CuocPhi /></QuanLy>}></Route>
-        <Route path="/quan-ly/loai-mat-hang" element={<QuanLy ><LoaiMatHang /></QuanLy>}></Route>
-        <Route path="/quan-ly/phi-bao-hiem" element={<QuanLy ><BaoHiemDonVanChuyen /></QuanLy>}></Route>
-        <Route path="/quan-ly/hinh-thuc-van-chuyen" element={<QuanLy ><HTVC /></QuanLy>}></Route>
-        <Route path="/quan-ly/bang-trong-luong" element={<QuanLy ><BangTrongLuong /></QuanLy>}></Route>
-        <Route path="/quan-ly/du-lieu-tinh-cuoc" element={<QuanLy ><DuLieuTinhCuoc /></QuanLy>}></Route>
-        <Route path="/quan-ly/thong-tin-ca-nhan" element={<QuanLy ><ThongTinCaNhanQL /></QuanLy>}></Route>
-        <Route path="/quan-ly/duyet-don-van-chuyen" element={<QuanLy ><DuyetDonVanChuyen /></QuanLy>}></Route>
-        <Route path="/quan-ly/quan-ly-don-van-chuyen" element={<QuanLy ><QuanLyDonVanChuyenQL /></QuanLy>}></Route>
-        <Route path="/quan-ly/thong-ke-don-van-chuyen" element={<QuanLy ><ThongKeDonVanChuyenQL /></QuanLy>}></Route>
-        <Route path="/quan-ly/quan-ly-doanh-thu" element={<QuanLy ><QuanLyDoanhThu /></QuanLy>}></Route>
-        <Route path="/quan-ly/duyet-mat-hang-ca-nhan" element={<QuanLy ><DuyetMatHangCaNhan /></QuanLy>}></Route>
-        <Route path="/quan-ly/quan-ly-khach-hang" element={<QuanLy ><QuanLyKhachHang /></QuanLy>}></Route>
-        <Route path="/quan-ly/quan-ly-nhan-vien-giao-hang" element={<QuanLy ><QuanLyNhanVienGiaoHang /></QuanLy>}></Route>
-        <Route path="/don-hoang-thanhkh/*" element={<QuanLy ><DanhSachDon /></QuanLy>}></Route>
-        <Route path="/cuoc-phi-con-no/*" element={<QuanLy ><DanhSachCuocNo /></QuanLy>}></Route>
-        <Route path="/don-nhan-vien/*" element={<QuanLy ><DanhSachDon /></QuanLy>}></Route>
-        <Route path="/no-tien-thu-ho/*" element={<QuanLy ><DanhSachCuocNo /></QuanLy>}></Route>
-        <Route path="/tien-thu-ho-kh/*" element={<QuanLy ><TienThuHo /></QuanLy>}></Route>
-        <Route path="/luong-nhan-vien/*" element={<QuanLy ><LuongNhanVien /></QuanLy>}></Route>
+        <Route path= {"/LuanVan/trang-chu"} element={<Home />}> </Route>
+        <Route path="/LuanVan/uoc-tinh" element={<UocTinh />}> </Route>
+        <Route path="/LuanVan/lien-lac" element={<Contact />}> </Route>
+        <Route path="/LuanVan/quan-ly" element={<QuanLy><DashboardQuanLy /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/cuoc-phi" element={<QuanLy ><CuocPhi /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/loai-mat-hang" element={<QuanLy ><LoaiMatHang /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/phi-bao-hiem" element={<QuanLy ><BaoHiemDonVanChuyen /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/hinh-thuc-van-chuyen" element={<QuanLy ><HTVC /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/bang-trong-luong" element={<QuanLy ><BangTrongLuong /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/du-lieu-tinh-cuoc" element={<QuanLy ><DuLieuTinhCuoc /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/thong-tin-ca-nhan" element={<QuanLy ><ThongTinCaNhanQL /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/duyet-don-van-chuyen" element={<QuanLy ><DuyetDonVanChuyen /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/quan-ly-don-van-chuyen" element={<QuanLy ><QuanLyDonVanChuyenQL /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/thong-ke-don-van-chuyen" element={<QuanLy ><ThongKeDonVanChuyenQL /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/quan-ly-doanh-thu" element={<QuanLy ><QuanLyDoanhThu /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/duyet-mat-hang-ca-nhan" element={<QuanLy ><DuyetMatHangCaNhan /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/quan-ly-khach-hang" element={<QuanLy ><QuanLyKhachHang /></QuanLy>}></Route>
+        <Route path="/LuanVan/quan-ly/quan-ly-nhan-vien-giao-hang" element={<QuanLy ><QuanLyNhanVienGiaoHang /></QuanLy>}></Route>
+        <Route path="/LuanVan/don-hoang-thanhkh/*" element={<QuanLy ><DanhSachDon /></QuanLy>}></Route>
+        <Route path="/LuanVan/cuoc-phi-con-no/*" element={<QuanLy ><DanhSachCuocNo /></QuanLy>}></Route>
+        <Route path="/LuanVan/don-nhan-vien/*" element={<QuanLy ><DanhSachDon /></QuanLy>}></Route>
+        <Route path="/LuanVan/no-tien-thu-ho/*" element={<QuanLy ><DanhSachCuocNo /></QuanLy>}></Route>
+        <Route path="/LuanVan/tien-thu-ho-kh/*" element={<QuanLy ><TienThuHo /></QuanLy>}></Route>
+        <Route path="/LuanVan/luong-nhan-vien/*" element={<QuanLy ><LuongNhanVien /></QuanLy>}></Route>
+
+/LuanVan
+        <Route path="/LuanVan/khach-hang/tao-don-van-chuyen" element={<KhachHang ><TaoDonVanChuyen /></KhachHang>}></Route>
+        <Route path="/LuanVan/khach-hang/thong-ke-tien-thu-ho" element={<KhachHang ><ThongKeTienThuHoKH /></KhachHang>}></Route>
+
+        <Route path='/LuanVan/thong-tin-ca-nhan' element={<KhachHang ><ThongTinCaNhan /></KhachHang>}></Route>
+        <Route path='/LuanVan/khach-hang' element={<KhachHang > <DashbordKhachHang /> </KhachHang>}></Route>
+        <Route path='/LuanVan/khach-hang/so-dia-chi' element={<KhachHang > <SoDiaChi /> </KhachHang>}></Route>
+        <Route path='/LuanVan/khach-hang/nguoi-nhan-ca-nhan' element={<KhachHang > <NguoiNhanCaNhan /> </KhachHang>}></Route>
+        <Route path='/LuanVan/khach-hang/mat-hang-ca-nhan' element={<KhachHang > <MatHangCaNhan /> </KhachHang>}></Route>
+        <Route path='/LuanVan/khach-hang/quan-ly-don-van-chuyen' element={<KhachHang > <QuanLyDonVanChuyen /> </KhachHang>}></Route>
+        <Route path='/LuanVan/khach-hang/quan-ly-cuoc-phi' element={<KhachHang > <QuanLyCuocPhi /> </KhachHang>}></Route>
 
 
-        <Route path="/khach-hang/tao-don-van-chuyen" element={<KhachHang ><TaoDonVanChuyen /></KhachHang>}></Route>
-        <Route path="/khach-hang/thong-ke-tien-thu-ho" element={<KhachHang ><ThongKeTienThuHoKH /></KhachHang>}></Route>
 
-        <Route path='/thong-tin-ca-nhan' element={<KhachHang ><ThongTinCaNhan /></KhachHang>}></Route>
-        <Route path='/khach-hang' element={<KhachHang > <DashbordKhachHang /> </KhachHang>}></Route>
-        <Route path='/khach-hang/so-dia-chi' element={<KhachHang > <SoDiaChi /> </KhachHang>}></Route>
-        <Route path='/khach-hang/nguoi-nhan-ca-nhan' element={<KhachHang > <NguoiNhanCaNhan /> </KhachHang>}></Route>
-        <Route path='/khach-hang/mat-hang-ca-nhan' element={<KhachHang > <MatHangCaNhan /> </KhachHang>}></Route>
-        <Route path='/khach-hang/quan-ly-don-van-chuyen' element={<KhachHang > <QuanLyDonVanChuyen /> </KhachHang>}></Route>
-        <Route path='/khach-hang/quan-ly-cuoc-phi' element={<KhachHang > <QuanLyCuocPhi /> </KhachHang>}></Route>
-
-
-
-        <Route path='/nhan-vien-giao-hang' element={<NVGH > <NhanDonHang /> </NVGH>}></Route>
-        <Route path='/nhan-vien-giao-hang/nhan-don-hang' element={<NVGH > <NhanDonHang /> </NVGH>}></Route>
-        <Route path='/nhan-vien-giao-hang/quan-ly-don' element={<NVGH > <QuanLyDonVanChuyenNVGH /> </NVGH>}></Route>
-        <Route path='/nhan-vien-giao-hang/thong-ke-tien-thu-ho' element={<NVGH > <ThongKeTienThuHoNV /> </NVGH>}></Route>
-        <Route path='/nhan-vien-giao-hang/thong-ke-luong' element={<NVGH > <ThongKeLuong /> </NVGH>}></Route>
-        <Route path='/nhan-vien-giao-hang/thong-tin-ca-nhan' element={<NVGH ><ThongTinCaNhanNV /></NVGH>}></Route>
+        <Route path='/LuanVan/nhan-vien-giao-hang' element={<NVGH > <NhanDonHang /> </NVGH>}></Route>
+        <Route path='/LuanVan/nhan-vien-giao-hang/nhan-don-hang' element={<NVGH > <NhanDonHang /> </NVGH>}></Route>
+        <Route path='/LuanVan/nhan-vien-giao-hang/quan-ly-don' element={<NVGH > <QuanLyDonVanChuyenNVGH /> </NVGH>}></Route>
+        <Route path='/LuanVan/nhan-vien-giao-hang/thong-ke-tien-thu-ho' element={<NVGH > <ThongKeTienThuHoNV /> </NVGH>}></Route>
+        <Route path='/LuanVan/nhan-vien-giao-hang/thong-ke-luong' element={<NVGH > <ThongKeLuong /> </NVGH>}></Route>
+        <Route path='/LuanVan/nhan-vien-giao-hang/thong-tin-ca-nhan' element={<NVGH ><ThongTinCaNhanNV /></NVGH>}></Route>
 
         <Route path='/LuanVan/dang-nhap'  element={<Login  />}  />
         <Route path='/LuanVan/dang-ky' element={<Register />} />
@@ -112,7 +112,7 @@ function QuanLy (props){
   const [Role,setRole] = useState(window.localStorage.getItem("role"))
   const [UserName,setUserName]=useState(window.localStorage.getItem("userName"))
   if (UserName==null)
-    return <Navigate to={"/dang-nhap"} />
+    return <Navigate to={"/LuanVan/dang-nhap"} />
 if(Role.includes("QUAN_LY"))
     return <>{props.children}</>
   else
@@ -122,7 +122,7 @@ function KhachHang (props){
   const [Role,setRole] = useState(window.localStorage.getItem("role"))
   const [UserName,setUserName]=useState(window.localStorage.getItem("userName"))
   if (UserName==null)
-    return <Navigate to={"/dang-nhap"} />
+    return <Navigate to={"/LuanVan/dang-nhap"} />
 if(Role.includes("KHACH_HANG"))
     return <>{props.children}</>
   else
@@ -132,7 +132,7 @@ function NVGH (props){
   const [Role,setRole] = useState(window.localStorage.getItem("role"))
   const [UserName,setUserName]=useState(window.localStorage.getItem("userName"))
   if (UserName==null)
-    return <Navigate to={"/dang-nhap"} />
+    return <Navigate to={"/LuanVan/dang-nhap"} />
 if(Role.includes("NVGH"))
     return <>{props.children}</>
   else
@@ -142,7 +142,7 @@ function Public (props){
   const [Role,setRole] = useState(window.localStorage.getItem("role"))
   const [UserName,setUserName]=useState(window.localStorage.getItem("userName"))
   if (UserName==null)
-    return <Navigate to={"/dang-nhap"} />
+    return <Navigate to={"/LuanVan/dang-nhap"} />
     else
     return <>{props.children}</>
  
