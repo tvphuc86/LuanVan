@@ -8,7 +8,7 @@ function Hero() {
         <div className='text-hero'>
             <h1 className='text-title'>BẠN MUỐN GỬI HÀNG ?</h1>
             <h4 className='text-content'>Đơn vận chuyển của bạn sẽ được xử lý ngay</h4>
-            <a href='/LuanVan//khach-hang/tao-don-van-chuyen' className='btn-hero'>Yêu cầu gửi hàng</a>
+            <a href='/LuanVan/khach-hang/tao-don-van-chuyen' className='btn-hero'>Yêu cầu gửi hàng</a>
         </div>
     </div>
   )

@@ -264,7 +264,7 @@ const [maxTienThuHo,setMaxTienThuHo] = useState(0)
             </tbody>
           </table>
           <button>
-            <a href="/khach-hang/tao-don-van-chuyen">Tạo đơn</a>
+            <a href="/LuanVan/khach-hang/tao-don-van-chuyen">Tạo đơn</a>
           </button>
         </div>
       </div>
