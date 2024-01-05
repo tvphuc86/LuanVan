@@ -3,13 +3,13 @@ import axios from "axios"
 class DuyetDonVanChuyenService {
 
     getDonVanChuyen(){
-        return axios.get(`https://localhost:7088/api/DonVanChuyen/quan-ly/duyet-don`)
+        return axios.get(`https://webapi.somee.com/api/DonVanChuyen/quan-ly/duyet-don`)
     }
     duyetDon(id,maQuanLy){
-        return axios.post(`https://localhost:7088/api/DonVanChuyen/${id}?maQuanLy=${maQuanLy}`)
+        return axios.post(`https://webapi.somee.com/api/DonVanChuyen/${id}?maQuanLy=${maQuanLy}`)
     }
     huyDon(id){
-        return axios.post(`https://localhost:7088/api/DonVanChuyen/huy-don/${id}`)
+        return axios.post(`https://webapi.somee.com/api/DonVanChuyen/huy-don/${id}`)
     }
 
 }
