@@ -2,7 +2,7 @@ const navlinkKhachHang = [
     {
         icon:'fa-regular fa-house',
         title:'Bảng điều khiển',
-        href:'/khach-hang'
+        href:'/LuanVan/khach-hang'
     },
     {
         icon:"fa-regular fa-house",

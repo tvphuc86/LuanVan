@@ -66,10 +66,10 @@ function Login(props) {
                         window.localStorage.setItem('image',rs.data.data.image)
                         window.localStorage.setItem('sdt',rs.data.data.sdt)
                         if(quyen.includes("QUAN_LY"))
-                          navigate("/quan-ly")
+                          navigate("/LuanVan/quan-ly")
                         else if (quyen.includes("KHACH_HANG"))
-                              navigate("/khach-hang")
-                              else navigate("/nhan-vien-giao-hang")
+                              navigate("/LuanVan/khach-hang")
+                              else navigate("/LuanVan/nhan-vien-giao-hang")
                     }
                     
                 })
@@ -147,7 +147,7 @@ function Login(props) {
             <button type={'submit'}>Đăng nhập</button>
           </form>
           <p className="">
-            Bạn chưa có tài khoản? <a href="/dang-ky">Đăng ký ngay!</a>
+            Bạn chưa có tài khoản? <a href="/LuanVan/dang-ky">Đăng ký ngay!</a>
           </p>
         </div>
       </div>
